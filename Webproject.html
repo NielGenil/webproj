@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="carousel.css">
+    <title>Webpage Design</title>
+</head>
+<body>
+    <header>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+            <a href="#" class="navbar-brand display-1 fw-bolder text-capitalize">Engineer Facts</a>
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">Service</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Contact</a>
+              </li>
+                </ul>
+            </div>
+        </nav>
+
+      </header>
+        <div1>
+         <!-- Modal1 -->
+        <div class="modal fade" tabindex="-1" id="modal1">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+              <div class="modal-content">
+                <div class="modal-header1">
+                  <h5 class="modal-title">Microprocessor Design</h5>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                  <p class="text">Computer engineers design and develop microprocessors, which are the central processing units (CPUs) that power computers, smartphones, and various electronic devices. They work on creating efficient, high-performance, and power-efficient processors. This involves designing the architecture, optimizing instruction sets, and ensuring compatibility with software.</p>
+                </div>
+               
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal2 -->
+        <div class="modal fade" tabindex="-1" id="modal2">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+              <div class="modal-content">
+                <div class="modal-header2">
+                  <h5 class="modal-title">Embedded Systems Development</h5>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                  <p class="text">Computer engineers design and develop embedded systems, which are computer systems integrated into everyday products, such as automotive control systems, medical devices, and home appliances. They program and optimize the software that runs on these embedded systems, ensuring they function reliably and efficiently.</p>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal3 -->
+        <div class="modal fade" tabindex="-1" id="modal3">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+              <div class="modal-content">
+                <div class="modal-header3">
+                  <h5 class="modal-title">Network Security</h5>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                  <p class="text"> Computer engineers play a crucial role in the field of network security. They design and implement security measures to protect computer networks and data from various cyber threats, such as viruses, malware, and hackers. This involves creating firewalls, intrusion detection systems, and encryption protocols to safeguard sensitive information and ensure the integrity and confidentiality of data.</p>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+ 
+        <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+
+
+            <!-- slide1 -->
+            <div class="carousel-inner">
+              <div class="carousel-item active c-item">
+                <img src="im1.png" class="d-block w-100 c-img" alt="slide1">
+                <div class="carousel-caption top-0 mt-4">
+                    <p class="mt-5 fs-3">What Computer Engineers Do</p>
+                    <h1 class="display-1 fw-bolder text-capitalize">Microprocessor Design</h1>
+                    <button class="btn btn-dark btn-outline-light px-4 py2 fs-5 mt-5" data-bs-toggle="modal" data-bs-target="#modal1">Description</button>      
+                  </div>
+              </div>
+
+
+
+             <!-- slide2 --> 
+              <div class="carousel-item c-item">
+                <img src="im2.png" class="d-block w-100 c-img" alt="slide2">
+                <div class="carousel-caption top-0 mt-4">
+                    <p class="mt-5 fs-3">What Computer Engineers Do</p>
+                    <h1 class="display-1 fw-bolder text-capitalize">Embedded Systems Development</h1>
+                    <button class="btn btn-dark btn-outline-light px-4 py2 fs-5 mt-3" data-bs-toggle="modal" data-bs-target="#modal2">Description</button>                              
+                  </div>
+              </div>
+
+
+
+
+              <!-- slide3 -->
+              <div class="carousel-item c-item">
+                <img src="im3.png" class="d-block w-100 c-img" alt="slide3">
+                <div class="carousel-caption top-0 mt-4">
+                    <p class="mt-5 fs-3">What Computer Engineers Do</p>
+                    <h1 class="display-1 fw-bolder text-capitalize">Network Security</h1>
+                    <button class="btn btn-dark btn-outline-light px-4 py2 fs-5 mt-5" data-bs-toggle="modal" data-bs-target="#modal3">Description</button>                
+                  </div>
+              </div>
+
+
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div1>
+
+            
+
+
+
+          </div>
+          <div class="bg-0">  
+            
+        </div>
+        
+          <div class="bg-1">  
+            <h1 class="b">Computer Engineer</h1>
+        </div>
+        <text class="bg-2">
+            <h1 class="a mt-5 fs-3" id="tex">Computer engineering is a discipline that combines computer science and electrical engineering to design, develop, and maintain computer systems, networks, and software. Computer engineers work on hardware design, software development, computer networks, embedded systems, system integration, cybersecurity, and emerging technologies like AI and machine learning. They play a crucial role in creating and improving technology in various industries and work at the intersection of hardware and software.</h1>
+        </text>
+        <div class="bg-3">
+            <h1 class="b">Civil Engineer</h1>
+        </div>
+        <text class="bg-4">
+            <h1 class="a mt-5 fs-3">A civil engineer is a professional who designs, builds, and maintains infrastructure projects. They work on structures, transportation systems, water resources, environmental protection, and construction management. Civil engineers play a vital role in creating safe and efficient infrastructure that benefits society.</h1>
+        </text>
+        <div class="bg-5">  
+            <h1 class="b">Mechanical Engineer</h1>
+        </div>
+        <text class="bg-6">
+            <h1 class="a mt-5 fs-3">Mechanical engineers specialize in designing, analyzing, and maintaining mechanical systems and components. They work on a wide range of applications, from machines and engines to manufacturing processes and automation systems. Mechanical engineering is vital in industries like automotive, aerospace, energy, and manufacturing, and mechanical engineers contribute to efficiency, safety, and innovation in these areas.</h1>
+        </text>
+        <div class="bg-7">
+            <h1 class="b">Electrical Engineer</h1>
+        </div>
+        <text class="bg-8 ">
+            <h1 class="a mt-5 fs-3">Electrical engineers work with electrical and electronic systems, including electronics, power systems, telecommunications, control systems, and more. They design and maintain a wide range of technologies, from electronic devices to power grids, contributing to industries such as electronics manufacturing, energy, telecommunications, and information technology. Their work drives technological advancement and innovation.</h1>
+        </text>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

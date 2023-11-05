@@ -1,0 +1,209 @@
+.modal-header1{
+    background-image: url(mo1.png);
+    filter:brightness(0.8);
+    height: 400px;
+    
+}
+.modal-header2{
+    background-image: url(mo2.png);
+    filter:brightness(0.8);
+    height: 400px;
+    
+}
+.modal-header3{
+    background-image: url(mo3.png);
+    filter:brightness(0.8);
+    height: 400px;
+    
+}
+.modal-title{
+    font-size: 30px;
+    left: 0;
+    bottom: 0;
+    color: white;
+    position:absolute;
+    background-color: rgba(18, 18, 19, 0.236);
+}
+.btn-close{
+    position:absolute;
+    right: 0;
+    top: 0;
+    border-radius: 28px;
+    
+    background-color: rgb(255, 255, 255);
+
+}
+.modal1{
+    border-radius: 10%;
+}
+
+
+
+
+.text{
+    text-align: justify;
+}
+.c-item{
+    height: 480px;
+}
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter:brightness(0.6)
+}
+
+
+
+
+
+
+
+
+text{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+    font-family: arial;
+    color: #766d6d;
+    text-align: justify;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    
+}
+
+.bg-0{
+    background-color: white;
+    width:100%;
+    height:5px;
+}
+
+.bg-1{
+    background-image: url("comp.png");
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    width:100%;
+    height:480px;
+}
+
+.bg-2{
+    background-color: white;
+    width:100%;
+    height:480px;
+}
+.bg-3{
+    background-image: url("civil.png");
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+    width:100%;
+    height:480px;
+    padding-top: 50px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    
+   
+}
+.bg-4{
+    background-color: white;
+    width:100%;
+    height:480px;
+}
+.bg-5{
+    background-image: url("mechanical.png");
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+    width:100%;
+    height:480px;
+    padding-top: 50px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    
+    
+}
+.bg-6{
+    background-color: white;
+    width:100%;
+    height:480px;
+}
+.bg-7{
+    background-image: url("electrical.png");
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+    width:100%;
+    height:480px;
+    padding-top: 50px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    
+    
+}
+.bg-8{
+    background-color: white;
+    width:100%;
+    height:480px;
+}
+.b{
+    color: white;
+    font-size: 100px;
+    text-shadow: 4px 4px 4px #000;
+    text-align: center;
+    border-width:10px;
+    border-style:hidden;
+    border-color:#ffffff39;
+    background-color: #3b393984;
+    border-radius: 8px;
+    padding-top: 50px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+.nav-item a {
+    border-radius: 20px;
+    padding: 6px 15px;
+    font-weight: 600;
+    color: red;
+}
+.nav-item a:hover {
+    
+    background-color: rgb(146, 139, 139);
+}
+
+   
